@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Roboto:wght@700&display=swap');
+
+body {
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    font-size: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(205, 136, 211);
+    color: rgb(137, 12, 151);
+}
+
+.logo {
+    font-size:22px;
+    margin: 15px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    margin-right: 25px;
+    font-size: 26px;
+}
+
+footer {
+    background-color: #717171;
+    color: white;
+    font-size: 20px;
+    padding: 8px;
+}
+
+main {
+    background-image: url(images/main.jpeg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 250px;
+}
+h2 {
+    color: rgb(116, 94, 94);
+    font-weight: 700;
+    font-size: 45px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+button{
+    background-color: rgb(98, 8, 84);
+    color: rgb(98, 10, 82);
+    border: 3px white solid;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+}
+
